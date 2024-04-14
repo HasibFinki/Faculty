@@ -1,0 +1,58 @@
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git init
+Initialized empty Git repository in C:/Users/niluf/OneDrive/Masaüstü/SI_2024_lab1_191065/.git/
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git add .
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git commit -m "Initial Commit"
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065>  git push master
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git add .
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git commit -m "Add starter code"
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git push master
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git fetch --all
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git pull --all
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git checkout master
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git branch bug1
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git branch bug2
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git checkout bug1
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git add .
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git commit -m "Fix wrong condition in filterOddLengthStrings"
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git checkout bug2
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git add .
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git commit -m "Call method makeBigStringFrom in main class"
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git checkout bug1
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git add .
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git commit -m "Call method makeBigStringFrom in main class"
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git checkout master
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git merge bug1
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git fetch --all
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git pull --all
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git checkout bug2
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git rebase master
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git checkout master
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git merge bug2
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git fetch --all
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git pull --all
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git log > logs.txt
+
+
+
+
+git add SILab1_1.java.java
+
+
+Чекор 20: Спојување на гранката bug1 во главната гранка (master)
+Објаснување:
+
+Спојување на промените од bug1 во master.
+Може да дојде до конфликти ако промените се судираат.
+Ако се случи конфликт, ќе ги прегледам промените и ќе изберам кои да ги задржам.
+Веројатно користење на стандардната стратегија за спојување во Git.
+Чекор 23: Направете ребејс на гранката bug2 врз главната гранка (master)
+Објаснување:
+Ребејс на bug2 врз master.
+Конфликти можни ако има судирање на промените.
+Ако има конфликт, ќе ги решим како се појавуваат.
+Користење на стандардната стратегија за ребејс во Git.
+Чекор 25: Спојување на гранката bug2 во главната гранка (master)
+Објаснување:
+Спојување на промените од bug2 во master.
+Внимавајте на конфликтите.
+Ако се случи, ќе ги решам рачно.
