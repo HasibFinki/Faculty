@@ -1,0 +1,33 @@
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git init
+Initialized empty Git repository in C:/Users/niluf/OneDrive/Masaüstü/SI_2024_lab1_191065/.git/
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git add .
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git commit -m "Initial Commit"
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065>  git push master
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git add .
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git commit -m "Add starter code"
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git push master
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git fetch --all
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git pull --all
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git checkout master
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git branch bug1
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git branch bug2
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git checkout bug1
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git add .
+PS C:\Users\OneDrive\Masaüstü\SI_2024_lab1_191065> git commit -m "Fix wrong condition in filterOddLengthStrings"
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git checkout bug2
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git add .
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git commit -m "Call method makeBigStringFrom in main class"
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git checkout bug1
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git add .
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git commit -m "Call method makeBigStringFrom in main class"
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git checkout master
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git merge bug1
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git fetch --all
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git pull --all
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git checkout bug2
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git rebase master
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git checkout master
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git merge bug2
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git fetch --all
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git pull --all
+PS C:\Users\OneDrive\Masaüstü\Finki\Faculty> git log > logs.txt
