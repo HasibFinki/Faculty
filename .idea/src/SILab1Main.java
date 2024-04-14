@@ -13,5 +13,8 @@ public class SILab1Main {
         for (int i = 0; i < n; i++) {
             list.add(sc.next());
         }
+
+        // Add call to makeBigStringFrom method
+        System.out.println(SILab1_2.makeBigStringFrom(list));
     }
 }
